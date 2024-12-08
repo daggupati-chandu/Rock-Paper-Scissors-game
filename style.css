@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #081b31;
+    color: white;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: #030b14;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+#message_Container {
+    margin-top: 4rem;
+    padding-bottom: 2rem; /* Add some padding to ensure the message doesn't touch the scoreboard */
+}
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline-block; /* Change from inline to inline-block to handle spacing better */
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem; /* Ensure some space above the message */
+}
